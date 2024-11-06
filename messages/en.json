@@ -1,0 +1,10 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "get_started": "Get started by editing",
+  "save": "Save and see your changes instantly.",
+  "deploy": "Deploy now",
+  "docs": "Read our docs",
+  "learn": "Learn",
+  "example": "Examples",
+  "go_to": "Go to"
+}
