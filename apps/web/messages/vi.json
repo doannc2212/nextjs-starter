@@ -1,4 +1,10 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "get_started": "Get started by editing"
+  "get_started": "Get started by editing",
+  "save": "Cập nhật giao diện ngay sau khi lưu.",
+  "deploy": "Triển khai ứng dụng",
+  "docs": "Tài liệu liên quan",
+  "learn": "Tìm hiểu thêm",
+  "example": "Xem ví dụ",
+  "go_to": "Đi tới"
 }
