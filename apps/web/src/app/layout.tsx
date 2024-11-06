@@ -1,5 +1,5 @@
 import { LanguageProvider } from "@inlang/paraglide-next";
-import { languageTag } from "@/paraglide/runtime.js";
+import { languageTag } from "@/paraglide/runtime";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";

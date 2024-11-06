@@ -1,0 +1,18 @@
+{
+  "name": "@nextjs-starter/formatter",
+  "version": "0.0.1",
+  "description": "Prettier config",
+  "author": "Doan Nguyen Cong <doannc2212@gmail.com>",
+  "homepage": "https://github.com/doannc2212/nextjs-starter",
+  "main": "prettier.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doannc2212/nextjs-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doannc2212/nextjs-starter/issues"
+  },
+  "peerDependencies": {
+    "prettier": "^3.3.3"
+  }
+}

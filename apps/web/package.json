@@ -1,0 +1,32 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "paraglide-js compile --project ./project.inlang --outdir ./src/paraglide"
+  },
+  "dependencies": {
+    "@inlang/paraglide-next": "^0.7.2",
+    "next": "15.0.2",
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "19.0.0-rc-02c0e824-20241028"
+  },
+  "devDependencies": {
+    "@nextjs-starter/formatter": "workspace:*",
+    "@nextjs-starter/typescript-config": "workspace:*",
+    "@inlang/paraglide-js": "1.11.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.2",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
