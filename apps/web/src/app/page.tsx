@@ -1,5 +1,6 @@
 import Image from "next/image";
 import * as m from "@/paraglide/messages";
+import LangSwitcher from "./lang-switcher";
 
 export default function Home() {
   return (
@@ -96,6 +97,7 @@ export default function Home() {
           />
           {m.go_to() + " "}nextjs.org →
         </a>
+        <LangSwitcher />
       </footer>
     </div>
   );
