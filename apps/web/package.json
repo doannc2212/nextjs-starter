@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "paraglide-js compile --project ./project.inlang --outdir ./src/paraglide"
+    "lint": "next lint"
   },
   "dependencies": {
     "@inlang/paraglide-next": "^0.7.2",
@@ -18,6 +17,7 @@
   "devDependencies": {
     "@nextjs-starter/formatter": "workspace:*",
     "@nextjs-starter/typescript-config": "workspace:*",
+    "@nextjs-starter/i18n": "workspace:*",
     "@inlang/paraglide-js": "1.11.3",
     "@types/node": "^20",
     "@types/react": "^18",

@@ -4,7 +4,6 @@
   "description": "Typescript config",
   "author": "Doan Nguyen Cong <doannc2212@gmail.com>",
   "homepage": "https://github.com/doannc2212/nextjs-starter",
-  "main": "prettier.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doannc2212/nextjs-starter.git"

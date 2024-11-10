@@ -1,5 +1,5 @@
 import Image from "next/image";
-import * as m from "@/paraglide/messages";
+import * as m from "@nextjs-starter/i18n";
 import LangSwitcher from "./lang-switcher";
 
 export default function Home() {
