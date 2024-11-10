@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "bun run --filter \"web\" dev",
     "build": "bun run --filter \"web\" build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "clean": "rimraf apps/web/.next apps/web/src/paraglide/"
   },
   "husky": {
     "hooks": {
