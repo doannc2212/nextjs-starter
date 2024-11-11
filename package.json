@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "bun run --filter \"web\" dev",
     "build": "bun run --filter \"web\" build",
-    "prepare": "husky",
-    "clean": "rimraf apps/web/.next apps/web/src/paraglide/"
+    "e2e": "bunx cypress open --project ./apps/web",
+    "test": "bunx cypress run --project ./apps/web",
+    "clean": "rimraf apps/web/.next node_modules",
+    "prepare": "husky"
   },
   "husky": {
     "hooks": {
