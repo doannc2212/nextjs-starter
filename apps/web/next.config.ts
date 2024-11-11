@@ -1,2 +1,2 @@
-import { i18nBuild } from "@nextjs-starter/i18n/plugin";
-export default i18nBuild();
+// import { i18nBuild } from "@nextjs-starter/i18n/plugin";
+export default {};
