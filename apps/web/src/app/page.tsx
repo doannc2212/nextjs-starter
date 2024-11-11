@@ -1,6 +1,4 @@
 import Image from "next/image";
-import * as m from "@/paraglide/messages";
-import LangSwitcher from "./lang-switcher";
 
 export default function Home() {
   return (
@@ -16,13 +14,13 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            {m.get_started()}{" "}
+            Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
+              app/page.tsx
             </code>
             .
           </li>
-          <li>{m.save()}</li>
+          <li>Save and see your changes instantly.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -39,7 +37,7 @@ export default function Home() {
               width={20}
               height={20}
             />
-            {m.deploy()}
+            Deploy now
           </a>
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
@@ -47,7 +45,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {m.docs()}
+            Read our docs
           </a>
         </div>
       </main>
@@ -65,7 +63,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          {m.learn()}
+          Learn
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -80,7 +78,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          {m.example()}
+          Examples
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -95,9 +93,8 @@ export default function Home() {
             width={16}
             height={16}
           />
-          {m.go_to() + " "}nextjs.org →
+          Go to nextjs.org →
         </a>
-        <LangSwitcher />
       </footer>
     </div>
   );
