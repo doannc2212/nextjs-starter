@@ -12,12 +12,14 @@
     "test": "cypress run"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^15.0.3",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028"
   },
   "devDependencies": {
     "@nextjs-starter/formatter": "workspace:*",
+    "@nextjs-starter/linter": "workspace:*",
     "@nextjs-starter/typescript-config": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^18",

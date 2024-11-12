@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "bun run --filter \"web\" dev",
     "build": "bun run --filter \"web\" build",
+    "analyze": "bun run --filter \"web\" build:analyze",
     "e2e": "bunx cypress open --project ./apps/web",
     "test": "bunx cypress run --project ./apps/web",
     "clean": "rimraf apps/web/.next node_modules",
@@ -38,8 +39,5 @@
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "typescript": "^5.6.3"
-  },
-  "dependencies": {
-    "@next/bundle-analyzer": "^15.0.3"
   }
 }
