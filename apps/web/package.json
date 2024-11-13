@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "e2e": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
     "@next/bundle-analyzer": "^15.0.3",
@@ -18,8 +19,8 @@
     "react-dom": "19.0.0-rc-02c0e824-20241028"
   },
   "devDependencies": {
+    "@nextjs-starter/eslint-config": "workspace:*",
     "@nextjs-starter/formatter": "workspace:*",
-    "@nextjs-starter/linter": "workspace:*",
     "@nextjs-starter/typescript-config": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^18",

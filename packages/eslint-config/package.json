@@ -1,10 +1,10 @@
 {
-  "name": "@nextjs-starter/linter",
+  "name": "@nextjs-starter/eslint-config",
   "version": "0.0.1",
   "description": "Eslint config",
   "author": "Doan Nguyen Cong <doannc2212@gmail.com>",
   "homepage": "https://github.com/doannc2212/nextjs-starter",
-  "main": "eslint.config.mjs",
+  "main": "eslint.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doannc2212/nextjs-starter.git"
@@ -12,8 +12,13 @@
   "bugs": {
     "url": "https://github.com/doannc2212/nextjs-starter/issues"
   },
-  "peerDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "15.0.2"
+  "devDependencies": {
+    "@vercel/style-guide": "^5.2.0",
+    "eslint-config-turbo": "^2.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "typescript": "5.5.4"
   }
 }
