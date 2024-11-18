@@ -1,0 +1,14 @@
+{
+  "name": "@nextjs-starter/seo",
+  "version": "0.0.1",
+  "description": "SEO utilities for Next.js",
+  "author": "Doan Nguyen Cong <doannc2212@gmail.com>",
+  "homepage": "https://github.com/doannc2212/nextjs-starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doannc2212/nextjs-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doannc2212/nextjs-starter/issues"
+  }
+}

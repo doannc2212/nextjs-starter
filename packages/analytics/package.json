@@ -1,0 +1,20 @@
+{
+  "name": "@nextjs-starter/analytics",
+  "version": "0.0.1",
+  "description": "Analytics for Next.js",
+  "author": "Doan Nguyen Cong <doannc2212@gmail.com>",
+  "homepage": "https://github.com/doannc2212/nextjs-starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doannc2212/nextjs-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doannc2212/nextjs-starter/issues"
+  },
+  "keywords": [
+    "Segment",
+    "Next.js",
+    "PostHog",
+    "LaunchDarkly"
+  ]
+}
