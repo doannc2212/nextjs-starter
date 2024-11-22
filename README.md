@@ -52,7 +52,7 @@ There's list of thing that i'm going to implement:
 - [x] Testing
 - [ ] Intl
 - [ ] Observability
-- [ ] Formatter
+- [x] Formatter
 - [ ] Feature Flag (both LaunchDarkly and PostHog)
 - [ ] Analytics
 - [ ] SEO
