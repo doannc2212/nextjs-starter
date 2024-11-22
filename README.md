@@ -42,7 +42,7 @@ To get started with this project, follow these steps:
 - `apps/` - Contains the main applications of the monorepo.
 - `packages/` - Contains shared packages and libraries used by the applications.
 
-## Roadmap
+## Features
 
 There's list of thing that i'm going to implement:
 
