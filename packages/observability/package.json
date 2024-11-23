@@ -10,5 +10,12 @@
   },
   "bugs": {
     "url": "https://github.com/doannc2212/nextjs-starter/issues"
+  },
+  "devDependencies": {
+    "@nextjs-starter/typescript-config": "workspace:*",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@sentry/nextjs": "^8.40.0"
   }
 }

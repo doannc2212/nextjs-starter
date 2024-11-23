@@ -51,7 +51,7 @@ There's list of thing that i'm going to implement:
 - [x] Typescript config
 - [x] Testing
 - [ ] Intl
-- [ ] Observability
+- [x] Observability
 - [x] Formatter
 - [ ] Feature Flag (both LaunchDarkly and PostHog)
 - [ ] Analytics
