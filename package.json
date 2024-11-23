@@ -6,8 +6,8 @@
     "dev": "bun run --filter \"web\" dev",
     "build": "bun run --filter \"web\" build",
     "analyze": "bun run --filter \"web\" build:analyze",
-    "e2e": "bunx cypress open --project ./apps/web",
-    "test": "bunx cypress run --project ./apps/web",
+    "e2e": "bunx cypress open --project ./apps/web-e2e",
+    "test": "bunx cypress run --project ./apps/web-e2e",
     "clean": "rimraf apps/web/.next node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky"
@@ -38,8 +38,8 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "husky": "^9.1.6",
-    "prettier": "^3.3.3",
     "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
     "typescript": "^5.6.3"
   }
 }

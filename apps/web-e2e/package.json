@@ -1,0 +1,14 @@
+{
+  "name": "web-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "e2e": "cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "@nextjs-starter/typescript-config": "workspace:*",
+    "cypress": "^13.16.0",
+    "typescript": "^5"
+  }
+}
