@@ -22,7 +22,7 @@
     "@nextjs-starter/eslint-config": "workspace:*",
     "@nextjs-starter/formatter": "workspace:*",
     "@nextjs-starter/typescript-config": "workspace:*",
-    "@types/node": "^20",
+    "@types/node": "^22.0.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
