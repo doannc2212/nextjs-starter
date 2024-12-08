@@ -10,5 +10,13 @@
   },
   "bugs": {
     "url": "https://github.com/doannc2212/nextjs-starter/issues"
+  },
+  "dependencies": {
+    "next": "^15.0.3",
+    "react": "^19.0.0-rc.1",
+    "react-dom": "^19.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@nextjs-starter/typescript-config": "workspace:*"
   }
 }

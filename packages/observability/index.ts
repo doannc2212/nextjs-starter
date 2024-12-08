@@ -10,6 +10,8 @@ export const parseError = (error: unknown): string => {
   }
 
   try {
+    // add observability instance
+
     captureException(error);
   } catch (newError) {
     console.error("Error parsing error:", newError);

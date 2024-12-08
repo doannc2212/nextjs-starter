@@ -56,4 +56,4 @@ There's list of thing that i'm going to implement:
 - [ ] Feature Flag (both LaunchDarkly and PostHog)
 - [ ] Analytics
 - [ ] SEO
-- [ ] Design System
+- [x] Design System

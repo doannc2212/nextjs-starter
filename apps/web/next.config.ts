@@ -2,7 +2,11 @@ import { withSentryConfig } from "@sentry/nextjs";
 import analyzer from "@next/bundle-analyzer";
 import { NextConfig } from "next";
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  experimental: {
+    optimizePackageImports: ["@nextjs-starter/design-system"],
+  },
+};
 
 const withBundleAnalyzer = analyzer({
   enabled: process.env.ANALYZE === "true",
