@@ -7,7 +7,9 @@
     "build": "turbo build",
     "analyze": "turbo analyze",
     "e2e": "bunx cypress open --project ./apps/web-e2e",
-    "test": "bunx cypress run --project ./apps/web-e2e",
+    "test:e2e": "bunx cypress run --project ./apps/web-e2e",
+    "test": "turbo web#test",
+    "test:watch": "turbo web#test:watch",
     "clean": "rimraf apps/web/.next node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky"

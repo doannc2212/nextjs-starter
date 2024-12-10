@@ -8,6 +8,9 @@
     "lint": {
       "dependsOn": ["^lint"]
     },
+    "test:e2e": {
+      "dependsOn": ["web#build"]
+    },
     "dev": {
       "persistent": true,
       "cache": false
