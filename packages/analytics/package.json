@@ -16,5 +16,14 @@
     "Next.js",
     "PostHog",
     "LaunchDarkly"
-  ]
+  ],
+  "peerDependencies": {
+    "react": "^19.0.0-rc.1"
+  },
+  "dependencies": {
+    "@next/third-parties": "^15.1.0"
+  },
+  "devDependencies": {
+    "@nextjs-starter/typescript-config": "workspace:*"
+  }
 }
