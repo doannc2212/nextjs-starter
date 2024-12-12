@@ -1,10 +1,6 @@
-import { Button } from "@nextjs-starter/design-system";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <div>
-      <h1>Hello world</h1>
-      <Button>Click me</Button>
-    </div>
-  );
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
+  redirect("/en");
 }

@@ -16,8 +16,10 @@
     "@next/bundle-analyzer": "^15.0.3",
     "@nextjs-starter/analytics": "workspace:*",
     "@nextjs-starter/design-system": "workspace:*",
+    "@nextjs-starter/observability": "workspace:*",
     "@sentry/nextjs": "^8",
     "next": "^15.0.3",
+    "next-intl": "^3.26.1",
     "react": "^19.0.0-rc.1",
     "react-dom": "^19.0.0-rc.1",
     "react-intl": "^7.0.1"

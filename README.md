@@ -50,7 +50,7 @@ There's list of thing that i'm going to implement:
 - [x] Linter config (commitlint and eslint)
 - [x] Typescript config
 - [x] Testing
-- [ ] Intl
+- [x] Intl
 - [x] Observability
 - [x] Formatter
 - [ ] Feature Flag (both LaunchDarkly and PostHog)
