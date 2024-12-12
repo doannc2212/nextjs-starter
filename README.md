@@ -55,7 +55,7 @@ There's list of thing that i'm going to implement:
 - [x] Formatter
 - [ ] Feature Flag (both LaunchDarkly and PostHog)
 - [x] Analytics
-- [ ] SEO
+- [x] SEO
 - [x] Design System
 - [ ] Security
 - [ ] Codegen

@@ -17,6 +17,7 @@
     "@nextjs-starter/analytics": "workspace:*",
     "@nextjs-starter/design-system": "workspace:*",
     "@nextjs-starter/observability": "workspace:*",
+    "@nextjs-starter/seo": "workspace:*",
     "@sentry/nextjs": "^8",
     "next": "^15.0.3",
     "next-intl": "^3.26.1",

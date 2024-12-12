@@ -10,5 +10,17 @@
   },
   "bugs": {
     "url": "https://github.com/doannc2212/nextjs-starter/issues"
+  },
+  "devDependencies": {
+    "@nextjs-starter/typescript-config": "workspace:*",
+    "@types/lodash.merge": "^4.6.9",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0-rc.1",
+    "next": "^15.0.3"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.2"
   }
 }
