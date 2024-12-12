@@ -18,7 +18,7 @@
     "LaunchDarkly"
   ],
   "peerDependencies": {
-    "react": "^19.0.0-rc.1"
+    "react": "^19.0.0"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.0"

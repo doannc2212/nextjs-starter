@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@nextjs-starter/typescript-config": "workspace:*",
-    "cypress": "^13.16.0",
-    "typescript": "^5"
+    "cypress": "^13.16.1",
+    "typescript": "^5.7.2"
   }
 }
