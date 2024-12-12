@@ -58,4 +58,4 @@ There's list of thing that i'm going to implement:
 - [x] SEO
 - [x] Design System
 - [ ] Security
-- [ ] Codegen
+- [x] Codegen
