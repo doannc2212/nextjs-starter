@@ -57,3 +57,5 @@ There's list of thing that i'm going to implement:
 - [x] Analytics
 - [ ] SEO
 - [x] Design System
+- [ ] Security
+- [ ] Codegen
