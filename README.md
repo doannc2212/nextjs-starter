@@ -53,7 +53,6 @@ There's list of thing that i'm going to implement:
 - [x] Intl
 - [x] Observability
 - [x] Formatter
-- [ ] Feature Flag (both LaunchDarkly and PostHog)
 - [x] Analytics
 - [x] SEO
 - [x] Design System
