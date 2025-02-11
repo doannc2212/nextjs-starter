@@ -4,7 +4,7 @@ This is a starter project for Next.js, a React framework for building server-sid
 
 ## Introduction
 
-This project aims to provide a solid foundation for building scalable and maintainable Next.js applications. It includes configurations for TypeScript, ESLint, testing, and more. Whether you're starting a new project or looking to improve an existing one, this starter project can help you get up and running quickly.
+This project aims to provide a solid foundation for building Next.js applications. It includes configurations for TypeScript, ESLint, testing, and more.
 
 ## Getting Started
 
