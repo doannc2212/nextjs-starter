@@ -12,6 +12,7 @@
     "test:watch": "turbo web#test:watch",
     "clean": "rimraf apps/web/.next node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "gen": "bun x turbo gen",
     "prepare": "husky"
   },
   "husky": {
