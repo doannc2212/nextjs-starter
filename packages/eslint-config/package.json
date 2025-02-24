@@ -13,7 +13,7 @@
     "url": "https://github.com/doannc2212/nextjs-starter/issues"
   },
   "devDependencies": {
-    "@vercel/style-guide": "^5.2.0",
+    "@vercel/style-guide": "^6.0.0",
     "eslint-config-turbo": "^2.4.2",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-only-warn": "^1.1.0",
