@@ -42,19 +42,6 @@ To get started with this project, follow these steps:
 - `apps/` - Contains the main applications of the monorepo.
 - `packages/` - Contains shared packages and libraries used by the applications.
 
-## Features
+## TODO
 
-There's list of thing that i'm going to implement:
-
-- [x] Monorepo
-- [x] Linter config (commitlint and eslint)
-- [x] Typescript config
-- [x] Testing
-- [x] Intl
-- [x] Observability
-- [x] Formatter
-- [x] Analytics
-- [x] SEO
-- [x] Design System
-- [x] Security
-- [x] Codegen
+I'm currently fork the [alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react) to `apps/web`
