@@ -12,11 +12,11 @@
     "url": "https://github.com/doannc2212/nextjs-starter/issues"
   },
   "devDependencies": {
-    "next": "^15.1.0",
+    "next": "^15.1.7",
     "@nextjs-starter/typescript-config": "workspace:*"
   },
   "dependencies": {
-    "@arcjet/next": "^1.0.0-alpha.34",
-    "nosecone": "^1.0.0-alpha.34"
+    "@arcjet/next": "^1.0.0-beta.2",
+    "nosecone": "^1.0.0-beta.2"
   }
 }
