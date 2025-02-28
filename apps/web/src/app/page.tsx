@@ -1,5 +1,5 @@
-import { createMetadata } from "@nextjs-starter/seo";
 import type { Metadata } from "next";
+import { createMetadata } from "@nextjs-starter/seo";
 
 export const metadata: Metadata = createMetadata({
   title: "Home",
@@ -9,7 +9,7 @@ export const metadata: Metadata = createMetadata({
 export default function Home() {
   return (
     <div>
-      <h1>NextJS Starter</h1>
+      <h1>Hello world</h1>
     </div>
   );
 }

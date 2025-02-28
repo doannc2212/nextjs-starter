@@ -13,6 +13,8 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@apollo/client": "^3.13.0-rc.0",
+    "@apollo/experimental-nextjs-app-support": "^0.11.9",
     "@next/bundle-analyzer": "^15.1.7",
     "@nextjs-starter/analytics": "workspace:*",
     "@nextjs-starter/design-system": "workspace:*",

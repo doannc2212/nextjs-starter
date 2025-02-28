@@ -6,7 +6,10 @@ export function secureHeader(
   options: NoseconeOptions = defaults,
 ) {
   // https://github.com/arcjet/arcjet-js/blob/02e4435a86b6b40b97feb369f0402b2199a4bc12/nosecone-next/index.ts#L41-L59
-  const headers = nosecone(options);
+  const headers = nosecone({
+    ...options,
+    contentSecurityPolicy: false,
+  });
   headers.set("x-middleware-next", "1");
 
   return new NextResponse(request.body, { headers });
