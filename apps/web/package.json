@@ -10,9 +10,12 @@
     "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "gqlgen": "graphql-codegen --config gqlgen.config.ts"
   },
   "dependencies": {
+    "@apollo/client": "^3.13.0-rc.0",
+    "@apollo/experimental-nextjs-app-support": "^0.11.9",
     "@next/bundle-analyzer": "^15.1.7",
     "@nextjs-starter/analytics": "workspace:*",
     "@nextjs-starter/design-system": "workspace:*",
@@ -23,9 +26,13 @@
     "next": "^15.1.7",
     "nosecone": "^1.0.0-beta.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "5.0.5",
+    "@graphql-codegen/typescript": "^4.1.5",
+    "@graphql-codegen/typescript-resolvers": "^4.4.4",
     "@nextjs-starter/eslint-config": "workspace:*",
     "@nextjs-starter/formatter": "workspace:*",
     "@nextjs-starter/typescript-config": "workspace:*",
@@ -45,7 +52,9 @@
     "prettier": "^3.5.2",
     "tailwindcss": "^3.4.17",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "@graphql-codegen/introspection": "4.0.3",
+    "@graphql-codegen/client-preset": "4.6.4"
   },
   "module": "index.ts",
   "type": "module"
