@@ -7,7 +7,6 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["@nextjs-starter/design-system"],
   },
-  reactStrictMode: false,
 };
 
 const withBundleAnalyzer = analyzer({
